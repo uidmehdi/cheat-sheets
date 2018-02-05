@@ -54,7 +54,7 @@ Yum is able to Update the whole system, an individual package or even downgrade 
 
 ## Repositories
 
-####Enable/Disable a repository:
+#### Enable/Disable a repository:
 
  1. Find the repository related `.repo` file in `/etc/yum.repos.d/` or it's related section in `/etc/yum.conf`.
  2. Set `enabled=1` to enable or `enabled=0` to disable the repository.
