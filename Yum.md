@@ -1,6 +1,7 @@
 # Yum Cheat Sheet
 
 Yum (Yellow Dog Updater, Modified), is the package manager used on RPM (RedHat Package Manager) based Linux systems. 
+
 It is an interactive, rpm based, package manager. It can automatically perform system updates, including dependency analysis and obsolete processing based on "repository" metadata. It can also perform installation of new packages, removal of old packages and perform queries on the installed and/or available packages among many other commands/services (see below). yum is similar to other high level package managers like apt-get and smart.
 
 ## Table of Contents
