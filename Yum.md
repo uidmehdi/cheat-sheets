@@ -131,8 +131,10 @@ $ yum provides <filename>
 ## Install & Remove Packages
 
 #### Install a package from repository:
-`$ sudo yum install <packagename>`
-`$ sudo yum install <packagename1> <packagename2>`
+```
+$ sudo yum install <packagename>
+$ sudo yum install <packagename1> <packagename2>
+```
 
 #### Install an rpm package:
 ```
@@ -153,8 +155,10 @@ $ sudo yum localinstall http://myrepo.org/packagename.rpm
 `$ sudo yum repo-pkgs <repo id> install`
 
 #### Remove an installed package:
-`$ sudo yum remove <packagename>`
-`$ sudo yum remove <packagename1> <packagename2>`
+```
+$ sudo yum remove <packagename>
+$ sudo yum remove <packagename1> <packagename2>
+```
 
 #### Reinstall a package that will replace any deleted files:
 `$ sudo yum reinstall <packagename>`
@@ -175,9 +179,12 @@ $ sudo yum localinstall http://myrepo.org/packagename.rpm
 `$ sudo yum repo-pkgs <repo id> remove`
 
 ## History
+
 #### View all the past transactions of yum command:
-`$ sudo yum history`
-`$ sudo yum history list`
+```
+$ sudo yum history
+$ sudo yum history list
+```
 
 #### Show details of yum transaction ID:
 `$ sudo yum history info <ID>`
